@@ -1,0 +1,1141 @@
+local a = Instance.new("ScreenGui")
+local b = Instance.new("Frame")
+local c = Instance.new("TextButton")
+local d = Instance.new("ImageLabel")
+local e = Instance.new("Frame")
+local f = Instance.new("Frame")
+local g = Instance.new("TextButton")
+local h = Instance.new("TextButton")
+local i = Instance.new("TextBox")
+local j = Instance.new("ImageLabel")
+local k = Instance.new("TextButton")
+local l = Instance.new("ImageLabel")
+local m = Instance.new("TextButton")
+local n = Instance.new("Frame")
+local o = Instance.new("ImageLabel")
+local p = Instance.new("TextLabel")
+local q = Instance.new("ImageLabel")
+local r = Instance.new("TextLabel")
+local s = Instance.new("TextLabel")
+local t = Instance.new("TextLabel")
+local u = Instance.new("TextLabel")
+local v = Instance.new("TextLabel")
+local w = Instance.new("TextButton")
+local x = Instance.new("Frame")
+local y = Instance.new("TextButton")
+local z = Instance.new("Frame")
+local A = Instance.new("Frame")
+local B = Instance.new("TextLabel")
+local C = Instance.new("Frame")
+local D = Instance.new("TextLabel")
+local E = Instance.new("TextLabel")
+local F = Instance.new("TextLabel")
+local G = Instance.new("TextLabel")
+local H = Instance.new("Frame")
+local I = Instance.new("Frame")
+local J = Instance.new("Frame")
+local K = Instance.new("Frame")
+local L = Instance.new("TextLabel")
+local M = Instance.new("TextLabel")
+local N = Instance.new("TextLabel")
+local O = Instance.new("TextLabel")
+local P = Instance.new("TextLabel")
+local Q = Instance.new("Frame")
+local R = Instance.new("TextButton")
+local S = Instance.new("Frame")
+local T = Instance.new("Frame")
+local U = Instance.new("Frame")
+local V = Instance.new("TextLabel")
+local W = Instance.new("TextLabel")
+local X = Instance.new("TextLabel")
+local Y = Instance.new("TextLabel")
+local Z = Instance.new("TextBox")
+local _ = Instance.new("ImageLabel")
+local a0 = Instance.new("ImageLabel")
+local a1 = Instance.new("TextBox")
+local a2 = Instance.new("ImageLabel")
+local a3 = Instance.new("ImageLabel")
+local a4 = Instance.new("TextLabel")
+local a5 = Instance.new("TextLabel")
+local a6 = Instance.new("TextButton")
+local a7 = Instance.new("TextLabel")
+a.Name = "Pluto"
+a.Parent = game.CoreGui;
+a.ResetOnSpawn = false;
+game.StarterGui:SetCore("SendNotification", {
+	Title = "Pluto Global",
+	Text = "Welcome to Pluto Global!"
+})
+wait(1)
+game.StarterGui:SetCore("SendNotification", {
+	Title = "Pluto Global",
+	Text = "Made By USB DUCK"
+})
+wait(1)
+game.StarterGui:SetCore("SendNotification", {
+	Title = "Pluto Global",
+	Text = "Please login to use Pluto!"
+})
+b.Name = "top"
+b.Parent = a;
+b.Active = true;
+b.BackgroundColor3 = Color3.new(0.278431, 0.278431, 0.278431)
+b.BorderSizePixel = 0;
+b.Draggable = true;
+b.Position = UDim2.new(0.685876548, -550, 0.0678216368, 170)
+b.Size = UDim2.new(0, 522, 0, 31)
+b.Visible = false;
+c.Name = "mainClose"
+c.Parent = b;
+c.BackgroundColor3 = Color3.new(0.666667, 0.333333, 1)
+c.BorderSizePixel = 0;
+c.Position = UDim2.new(0.949712634, 0, 0.158480391, 0)
+c.Size = UDim2.new(0, 21, 0, 21)
+c.Font = Enum.Font.SourceSans;
+c.Text = ""
+c.TextColor3 = Color3.new(0, 0, 0)
+c.TextSize = 14;
+c.TextStrokeTransparency = 3;
+d.Name = "shadow"
+d.Parent = c;
+d.BackgroundTransparency = 1;
+d.Position = UDim2.new(0, 0, 1, 0)
+d.Size = UDim2.new(1, 0, 0, 3)
+d.ZIndex = 4;
+d.Image = "rbxasset://textures/ui/TopBar/dropshadow.png"
+e.Name = "main"
+e.Parent = b;
+e.BackgroundColor3 = Color3.new(0.203922, 0.203922, 0.203922)
+e.BorderSizePixel = 0;
+e.Position = UDim2.new(0, 0, 0.970246077, 0)
+e.Size = UDim2.new(0, 522, 0, 294)
+f.Name = "bar"
+f.Parent = e;
+f.BackgroundColor3 = Color3.new(0.278431, 0.278431, 0.278431)
+f.BorderSizePixel = 0;
+f.Position = UDim2.new(0.199233711, 0, 0.00340136047, 0)
+f.Size = UDim2.new(0, 2, 0, 293)
+g.Name = "execute"
+g.Parent = e;
+g.BackgroundColor3 = Color3.new(1, 1, 1)
+g.BackgroundTransparency = 1;
+g.BorderSizePixel = 0;
+g.Position = UDim2.new(0, 0, 0.0476190411, 0)
+g.Size = UDim2.new(0, 106, 0, 34)
+g.Font = Enum.Font.SourceSansBold;
+g.Text = "Execute"
+g.TextColor3 = Color3.new(1, 1, 1)
+g.TextSize = 18;
+h.Name = "clear"
+h.Parent = e;
+h.BackgroundColor3 = Color3.new(1, 1, 1)
+h.BackgroundTransparency = 1;
+h.BorderSizePixel = 0;
+h.Position = UDim2.new(0, 0, 0.190476209, 0)
+h.Size = UDim2.new(0, 106, 0, 34)
+h.Font = Enum.Font.SourceSansBold;
+h.Text = "Clear"
+h.TextColor3 = Color3.new(1, 1, 1)
+h.TextSize = 18;
+i.Name = "execbox"
+i.Parent = e;
+i.BackgroundColor3 = Color3.new(0.121569, 0.121569, 0.121569)
+i.BorderSizePixel = 0;
+i.Position = UDim2.new(0.228, 0, 0.050999999, 0)
+i.Size = UDim2.new(0, 387, 0, 262)
+i.ClearTextOnFocus = false;
+i.Font = Enum.Font.SourceSansBold;
+i.MultiLine = true;
+i.PlaceholderText = "--Enter script here"
+i.ShowNativeInput = false;
+i.Text = ""
+i.TextColor3 = Color3.new(1, 1, 1)
+i.TextSize = 15;
+i.TextWrapped = true;
+i.TextXAlignment = Enum.TextXAlignment.Left;
+i.TextYAlignment = Enum.TextYAlignment.Top;
+j.Name = "shadow"
+j.Parent = i;
+j.BackgroundTransparency = 1;
+j.Position = UDim2.new(0, 0, 1, 0)
+j.Size = UDim2.new(1, 0, 0, 3)
+j.ZIndex = 4;
+j.Image = "rbxasset://textures/ui/TopBar/dropshadow.png"
+k.Name = "cred"
+k.Parent = e;
+k.BackgroundColor3 = Color3.new(1, 1, 1)
+k.BackgroundTransparency = 1;
+k.BorderSizePixel = 0;
+k.Position = UDim2.new(0, 0, 0.353741467, 0)
+k.Size = UDim2.new(0, 106, 0, 34)
+k.Font = Enum.Font.SourceSansBold;
+k.Text = "Credits"
+k.TextColor3 = Color3.new(1, 1, 1)
+k.TextSize = 18;
+l.Name = "shadow"
+l.Parent = e;
+l.BackgroundTransparency = 1;
+l.Position = UDim2.new(0, 0, 1, 0)
+l.Size = UDim2.new(1, 0, 0, 3)
+l.ZIndex = 4;
+l.Image = "rbxasset://textures/ui/TopBar/dropshadow.png"
+m.Name = "R6"
+m.Parent = e;
+m.BackgroundColor3 = Color3.new(1, 1, 1)
+m.BackgroundTransparency = 1;
+m.BorderSizePixel = 0;
+m.Position = UDim2.new(0, 0, 0.513605475, 0)
+m.Size = UDim2.new(0, 106, 0, 34)
+m.Font = Enum.Font.SourceSansBold;
+m.Text = "Change to R6"
+m.TextColor3 = Color3.new(1, 1, 1)
+m.TextSize = 18;
+n.Name = "line"
+n.Parent = b;
+n.BackgroundColor3 = Color3.new(0.666667, 0.333333, 1)
+n.BorderSizePixel = 0;
+n.Position = UDim2.new(-0.000415806659, 0, 0.962065876, 0)
+n.Size = UDim2.new(0, 522, 0, 2)
+o.Name = "shadow"
+o.Parent = n;
+o.BackgroundTransparency = 1;
+o.Position = UDim2.new(0, 0, 1, 0)
+o.Size = UDim2.new(1, 0, 0, 3)
+o.ZIndex = 4;
+o.Image = "rbxasset://textures/ui/TopBar/dropshadow.png"
+p.Name = "version"
+p.Parent = b;
+p.BackgroundColor3 = Color3.new(1, 1, 1)
+p.BackgroundTransparency = 1;
+p.Position = UDim2.new(0.511494339, 0, -0.109812088, 0)
+p.Size = UDim2.new(0, 49, 0, 33)
+p.Font = Enum.Font.SourceSansBold;
+p.Text = "v1.2.2"
+p.TextColor3 = Color3.new(1, 1, 1)
+p.TextSize = 18;
+p.TextXAlignment = Enum.TextXAlignment.Left;
+q.Name = "shadow"
+q.Parent = p;
+q.BackgroundTransparency = 1;
+q.Position = UDim2.new(0, 0, 1, 0)
+q.Size = UDim2.new(1, 0, 0, 3)
+q.ZIndex = 4;
+q.Image = "rbxasset://textures/ui/TopBar/dropshadow.png"
+r.Name = "title"
+r.Parent = b;
+r.BackgroundColor3 = Color3.new(1, 1, 1)
+r.BackgroundTransparency = 1;
+r.Position = UDim2.new(0.0114942528, 0, -0.0452959612, 0)
+r.Size = UDim2.new(0, 58, 0, 31)
+r.Visible = false;
+r.Font = Enum.Font.SourceSansBold;
+r.Text = "Plu"
+r.TextColor3 = Color3.new(1, 1, 1)
+r.TextSize = 24;
+r.TextXAlignment = Enum.TextXAlignment.Left;
+s.Name = "title"
+s.Parent = b;
+s.BackgroundColor3 = Color3.new(1, 1, 1)
+s.BackgroundTransparency = 1;
+s.Position = UDim2.new(0.0689999983, 0, -0.0450000018, 0)
+s.Size = UDim2.new(0, 58, 0, 31)
+s.Visible = false;
+s.Font = Enum.Font.SourceSansBold;
+s.Text = "toe"
+s.TextColor3 = Color3.new(0.666667, 0.333333, 1)
+s.TextSize = 24;
+s.TextXAlignment = Enum.TextXAlignment.Left;
+t.Name = "title"
+t.Parent = b;
+t.BackgroundColor3 = Color3.new(1, 1, 1)
+t.BackgroundTransparency = 1;
+t.Position = UDim2.new(0.0689999983, 0, -0.0450000018, 0)
+t.Size = UDim2.new(0, 58, 0, 31)
+t.Font = Enum.Font.SourceSansBold;
+t.Text = "to global"
+t.TextColor3 = Color3.new(0.666667, 0.333333, 1)
+t.TextSize = 24;
+t.TextXAlignment = Enum.TextXAlignment.Left;
+u.Name = "title"
+u.Parent = b;
+u.BackgroundColor3 = Color3.new(1, 1, 1)
+u.BackgroundTransparency = 1;
+u.Position = UDim2.new(0.0114942528, 0, -0.0452959612, 0)
+u.Size = UDim2.new(0, 58, 0, 31)
+u.Font = Enum.Font.SourceSansBold;
+u.Text = "Plu"
+u.TextColor3 = Color3.new(1, 1, 1)
+u.TextSize = 24;
+u.TextXAlignment = Enum.TextXAlignment.Left;
+v.Name = "WelcomeE"
+v.Parent = b;
+v.BackgroundColor3 = Color3.new(1, 1, 1)
+v.BackgroundTransparency = 1;
+v.Position = UDim2.new(0.0153258462, 0, 8.11599445, 0)
+v.Size = UDim2.new(0, 89, 0, 33)
+v.Font = Enum.Font.SourceSansBold;
+v.Text = "Welcome"
+v.TextColor3 = Color3.new(1, 1, 1)
+v.TextScaled = true;
+v.TextSize = 18;
+v.TextWrapped = true;
+v.TextXAlignment = Enum.TextXAlignment.Left;
+w.Name = "open"
+w.Parent = a;
+w.BackgroundColor3 = Color3.new(0.203922, 0.203922, 0.203922)
+w.BorderSizePixel = 0;
+w.Position = UDim2.new(0, 0, 0.751842737, 0)
+w.Size = UDim2.new(0, 97, 0, 42)
+w.Visible = false;
+w.Font = Enum.Font.SourceSansBold;
+w.Text = "Open"
+w.TextColor3 = Color3.new(1, 1, 1)
+w.TextSize = 18;
+x.Name = "credits"
+x.Parent = a;
+x.Active = true;
+x.BackgroundColor3 = Color3.new(0.278431, 0.278431, 0.278431)
+x.BorderSizePixel = 0;
+x.Draggable = true;
+x.Position = UDim2.new(0.5, -261, 0.304180413, -16)
+x.Size = UDim2.new(0, 522, 0, 31)
+x.Visible = false;
+y.Name = "CreditClose"
+y.Parent = x;
+y.BackgroundColor3 = Color3.new(0.666667, 0.333333, 1)
+y.BorderSizePixel = 0;
+y.Position = UDim2.new(0.942528725, 0, 0.158480391, 0)
+y.Size = UDim2.new(0, 21, 0, 21)
+y.Font = Enum.Font.SourceSans;
+y.Text = ""
+y.TextColor3 = Color3.new(0, 0, 0)
+y.TextSize = 14;
+y.TextStrokeTransparency = 3;
+z.Name = "main"
+z.Parent = x;
+z.BackgroundColor3 = Color3.new(0.203922, 0.203922, 0.203922)
+z.BorderSizePixel = 0;
+z.Position = UDim2.new(0, 0, 0.970246077, 0)
+z.Size = UDim2.new(0, 522, 0, 294)
+A.Name = "line"
+A.Parent = x;
+A.BackgroundColor3 = Color3.new(0.666667, 0.333333, 1)
+A.BorderSizePixel = 0;
+A.Position = UDim2.new(-0.000415806659, 0, 0.962065876, 0)
+A.Size = UDim2.new(0, 522, 0, 2)
+B.Name = "credititle"
+B.Parent = x;
+B.BackgroundColor3 = Color3.new(1, 1, 1)
+B.BackgroundTransparency = 1;
+B.Position = UDim2.new(0.45210737, 0, -0.0452959612, 0)
+B.Size = UDim2.new(0, 49, 0, 33)
+B.Font = Enum.Font.SourceSansBold;
+B.Text = "Credits"
+B.TextColor3 = Color3.new(1, 1, 1)
+B.TextSize = 24;
+B.TextXAlignment = Enum.TextXAlignment.Left;
+C.Parent = x;
+C.BackgroundColor3 = Color3.new(0.121569, 0.121569, 0.121569)
+C.BorderSizePixel = 0;
+C.Position = UDim2.new(0.0191570874, 0, 1.35483873, 0)
+C.Size = UDim2.new(0, 503, 0, 270)
+D.Name = "humanoid"
+D.Parent = x;
+D.BackgroundColor3 = Color3.new(1, 1, 1)
+D.BackgroundTransparency = 1;
+D.Position = UDim2.new(0.306513399, 0, 2.58064508, 0)
+D.Size = UDim2.new(0, 200, 0, 50)
+D.ZIndex = 2;
+D.Font = Enum.Font.SourceSans;
+D.Text = "Humanoid - GUI/UI work"
+D.TextColor3 = Color3.new(1, 1, 1)
+D.TextSize = 24;
+E.Name = "title"
+E.Parent = x;
+E.BackgroundColor3 = Color3.new(1, 1, 1)
+E.BackgroundTransparency = 1;
+E.Position = UDim2.new(0.0114942528, 0, -0.0452959612, 0)
+E.Size = UDim2.new(0, 58, 0, 31)
+E.Font = Enum.Font.SourceSansBold;
+E.Text = "Plu"
+E.TextColor3 = Color3.new(1, 1, 1)
+E.TextSize = 24;
+E.TextXAlignment = Enum.TextXAlignment.Left;
+F.Name = "Fortress"
+F.Parent = x;
+F.BackgroundColor3 = Color3.new(1, 1, 1)
+F.BackgroundTransparency = 1;
+F.Position = UDim2.new(0.306513399, 0, 4.83870888, 0)
+F.Size = UDim2.new(0, 200, 0, 50)
+F.Font = Enum.Font.SourceSans;
+F.Text = "USB DUCK - Scripting"
+F.TextColor3 = Color3.new(1, 1, 1)
+F.TextSize = 24;
+G.Name = "title"
+G.Parent = x;
+G.BackgroundColor3 = Color3.new(1, 1, 1)
+G.BackgroundTransparency = 1;
+G.Position = UDim2.new(0.0689999983, 0, -0.0450000018, 0)
+G.Size = UDim2.new(0, 58, 0, 31)
+G.Font = Enum.Font.SourceSansBold;
+G.Text = "to global"
+G.TextColor3 = Color3.new(0.666667, 0.333333, 1)
+G.TextSize = 24;
+G.TextXAlignment = Enum.TextXAlignment.Left;
+H.Name = "Loading"
+H.Parent = a;
+H.Active = true;
+H.BackgroundColor3 = Color3.new(0.278431, 0.278431, 0.278431)
+H.BorderSizePixel = 0;
+H.Draggable = true;
+H.Position = UDim2.new(0.5, -257, 0.304180413, -13)
+H.Size = UDim2.new(0, 522, 0, 31)
+H.Visible = false;
+I.Name = "main"
+I.Parent = H;
+I.BackgroundColor3 = Color3.new(0.203922, 0.203922, 0.203922)
+I.BorderSizePixel = 0;
+I.Position = UDim2.new(0, 0, 0.970246077, 0)
+I.Size = UDim2.new(0, 522, 0, 294)
+J.Name = "line"
+J.Parent = H;
+J.BackgroundColor3 = Color3.new(0.666667, 0.333333, 1)
+J.BorderSizePixel = 0;
+J.Position = UDim2.new(-0.000415806659, 0, 0.962065876, 0)
+J.Size = UDim2.new(0, 522, 0, 2)
+K.Parent = H;
+K.BackgroundColor3 = Color3.new(0.121569, 0.121569, 0.121569)
+K.BorderSizePixel = 0;
+K.Position = UDim2.new(0.0191570874, 0, 1.35483873, 0)
+K.Size = UDim2.new(0, 503, 0, 270)
+L.Name = "Laoding header"
+L.Parent = H;
+L.BackgroundColor3 = Color3.new(1, 1, 1)
+L.BackgroundTransparency = 1;
+L.Position = UDim2.new(0.300766259, 0, 1.70967734, 0)
+L.Size = UDim2.new(0, 200, 0, 50)
+L.ZIndex = 2;
+L.Font = Enum.Font.SourceSans;
+L.Text = "Loading"
+L.TextColor3 = Color3.new(1, 1, 1)
+L.TextSize = 24;
+M.Name = "title"
+M.Parent = H;
+M.BackgroundColor3 = Color3.new(1, 1, 1)
+M.BackgroundTransparency = 1;
+M.Position = UDim2.new(0.0114942528, 0, -0.0452959612, 0)
+M.Size = UDim2.new(0, 58, 0, 31)
+M.Font = Enum.Font.SourceSansBold;
+M.Text = "Plu"
+M.TextColor3 = Color3.new(1, 1, 1)
+M.TextSize = 24;
+M.TextXAlignment = Enum.TextXAlignment.Left;
+N.Name = "title"
+N.Parent = H;
+N.BackgroundColor3 = Color3.new(1, 1, 1)
+N.BackgroundTransparency = 1;
+N.Position = UDim2.new(0.0689999983, 0, -0.0450000018, 0)
+N.Size = UDim2.new(0, 58, 0, 31)
+N.Font = Enum.Font.SourceSansBold;
+N.Text = "to global"
+N.TextColor3 = Color3.new(0.666667, 0.333333, 1)
+N.TextSize = 24;
+N.TextXAlignment = Enum.TextXAlignment.Left;
+O.Name = "Servermessage"
+O.Parent = H;
+O.BackgroundColor3 = Color3.new(1, 1, 1)
+O.BackgroundTransparency = 1;
+O.Position = UDim2.new(0.300766289, 0, 7.64516163, 0)
+O.Size = UDim2.new(0, 200, 0, 50)
+O.ZIndex = 2;
+O.Font = Enum.Font.SourceSans;
+O.Text = "Server Messasge: gay"
+O.TextColor3 = Color3.new(1, 1, 1)
+O.TextSize = 24;
+P.Name = "LoadingStatus"
+P.Parent = H;
+P.BackgroundColor3 = Color3.new(1, 1, 1)
+P.BackgroundTransparency = 1;
+P.Position = UDim2.new(0.300766289, 0, 4.74193525, 0)
+P.Size = UDim2.new(0, 200, 0, 50)
+P.ZIndex = 2;
+P.Font = Enum.Font.SourceSans;
+P.Text = "Starting Loading..."
+P.TextColor3 = Color3.new(1, 1, 1)
+P.TextSize = 24;
+Q.Name = "Login"
+Q.Parent = a;
+Q.Active = true;
+Q.BackgroundColor3 = Color3.new(0.278431, 0.278431, 0.278431)
+Q.BorderSizePixel = 0;
+Q.Draggable = true;
+Q.Position = UDim2.new(0.5, -257, 0.304180413, -11)
+Q.Size = UDim2.new(0, 522, 0, 31)
+R.Name = "Login Close"
+R.Parent = Q;
+R.BackgroundColor3 = Color3.new(0.666667, 0.333333, 1)
+R.BorderSizePixel = 0;
+R.Position = UDim2.new(0.942528725, 0, 0.158480391, 0)
+R.Size = UDim2.new(0, 21, 0, 21)
+R.Font = Enum.Font.SourceSans;
+R.Text = ""
+R.TextColor3 = Color3.new(0, 0, 0)
+R.TextSize = 14;
+R.TextStrokeTransparency = 3;
+S.Name = "main"
+S.Parent = Q;
+S.BackgroundColor3 = Color3.new(0.203922, 0.203922, 0.203922)
+S.BorderSizePixel = 0;
+S.Position = UDim2.new(0, 0, 0.970246077, 0)
+S.Size = UDim2.new(0, 522, 0, 294)
+T.Name = "line"
+T.Parent = Q;
+T.BackgroundColor3 = Color3.new(0.666667, 0.333333, 1)
+T.BorderSizePixel = 0;
+T.Position = UDim2.new(-0.000415806659, 0, 0.962065876, 0)
+T.Size = UDim2.new(0, 522, 0, 2)
+U.Parent = Q;
+U.BackgroundColor3 = Color3.new(0.121569, 0.121569, 0.121569)
+U.BorderSizePixel = 0;
+U.Position = UDim2.new(0.0191570874, 0, 1.35483873, 0)
+U.Size = UDim2.new(0, 503, 0, 270)
+V.Name = "LoginHEader"
+V.Parent = Q;
+V.BackgroundColor3 = Color3.new(1, 1, 1)
+V.BackgroundTransparency = 1;
+V.Position = UDim2.new(0.308429122, 0, 1.35483861, 0)
+V.Size = UDim2.new(0, 200, 0, 50)
+V.ZIndex = 2;
+V.Font = Enum.Font.SourceSans;
+V.Text = "Before you can use Pluto Global Please Login"
+V.TextColor3 = Color3.new(1, 1, 1)
+V.TextSize = 24;
+W.Name = "title"
+W.Parent = Q;
+W.BackgroundColor3 = Color3.new(1, 1, 1)
+W.BackgroundTransparency = 1;
+W.Position = UDim2.new(0.0114942528, 0, -0.0452959612, 0)
+W.Size = UDim2.new(0, 58, 0, 31)
+W.Font = Enum.Font.SourceSansBold;
+W.Text = "Plu"
+W.TextColor3 = Color3.new(1, 1, 1)
+W.TextSize = 24;
+W.TextXAlignment = Enum.TextXAlignment.Left;
+X.Name = "title"
+X.Parent = Q;
+X.BackgroundColor3 = Color3.new(1, 1, 1)
+X.BackgroundTransparency = 1;
+X.Position = UDim2.new(0.0689999983, 0, -0.0450000018, 0)
+X.Size = UDim2.new(0, 58, 0, 31)
+X.Font = Enum.Font.SourceSansBold;
+X.Text = "to global"
+X.TextColor3 = Color3.new(0.666667, 0.333333, 1)
+X.TextSize = 24;
+X.TextXAlignment = Enum.TextXAlignment.Left;
+Y.Name = "LoginTitle"
+Y.Parent = Q;
+Y.BackgroundColor3 = Color3.new(1, 1, 1)
+Y.BackgroundTransparency = 1;
+Y.Position = UDim2.new(0.45210737, 0, -0.0452959612, 0)
+Y.Size = UDim2.new(0, 49, 0, 33)
+Y.Font = Enum.Font.SourceSansBold;
+Y.Text = "Login"
+Y.TextColor3 = Color3.new(1, 1, 1)
+Y.TextSize = 24;
+Y.TextXAlignment = Enum.TextXAlignment.Left;
+Z.Name = "Username"
+Z.Parent = Q;
+Z.BackgroundColor3 = Color3.new(0.121569, 0.121569, 0.121569)
+Z.BorderColor3 = Color3.new(0.172549, 0.164706, 0.145098)
+Z.BorderSizePixel = 0;
+Z.Position = UDim2.new(0.153287336, 0, 2.95422602, 0)
+Z.Size = UDim2.new(0, 360, 0, 25)
+Z.ClearTextOnFocus = false;
+Z.Font = Enum.Font.SourceSansBold;
+Z.MultiLine = true;
+Z.PlaceholderText = "Username"
+Z.ShowNativeInput = false;
+Z.Text = ""
+Z.TextColor3 = Color3.new(1, 1, 1)
+Z.TextSize = 15;
+Z.TextWrapped = true;
+Z.TextXAlignment = Enum.TextXAlignment.Left;
+Z.TextYAlignment = Enum.TextYAlignment.Top;
+_.Name = "shadow"
+_.Parent = Z;
+_.BackgroundTransparency = 1;
+_.Position = UDim2.new(0, 0, 1, 0)
+_.Size = UDim2.new(1, 0, 0, 3)
+_.ZIndex = 4;
+_.Image = "rbxasset://textures/ui/TopBar/dropshadow.png"
+a0.Name = "shadow"
+a0.Parent = Z;
+a0.BackgroundTransparency = 1;
+a0.Size = UDim2.new(1, 0, 0, 3)
+a0.ZIndex = 4;
+a0.Image = "rbxasset://textures/ui/TopBar/dropshadow.png"
+a1.Name = "Password"
+a1.Parent = Q;
+a1.BackgroundColor3 = Color3.new(0.121569, 0.121569, 0.121569)
+a1.BorderSizePixel = 0;
+a1.Position = UDim2.new(0.153287336, 0, 4.37358093, 0)
+a1.Size = UDim2.new(0, 360, 0, 25)
+a1.ClearTextOnFocus = false;
+a1.Font = Enum.Font.SourceSansBold;
+a1.MultiLine = true;
+a1.PlaceholderText = "Password"
+a1.ShowNativeInput = false;
+a1.Text = ""
+a1.TextColor3 = Color3.new(1, 1, 1)
+a1.TextSize = 15;
+a1.TextWrapped = true;
+a1.TextXAlignment = Enum.TextXAlignment.Left;
+a1.TextYAlignment = Enum.TextYAlignment.Top;
+a2.Name = "shadow"
+a2.Parent = a1;
+a2.BackgroundTransparency = 1;
+a2.Position = UDim2.new(0, 0, 1, 0)
+a2.Size = UDim2.new(1, 0, 0, 3)
+a2.ZIndex = 4;
+a2.Image = "rbxasset://textures/ui/TopBar/dropshadow.png"
+a3.Name = "shadow"
+a3.Parent = a1;
+a3.BackgroundTransparency = 1;
+a3.Position = UDim2.new(0, 0, -0.120000005, 0)
+a3.Size = UDim2.new(1, 0, 0, 3)
+a3.ZIndex = 4;
+a3.Image = "rbxasset://textures/ui/TopBar/dropshadow.png"
+a4.Name = "Info"
+a4.Parent = Q;
+a4.BackgroundColor3 = Color3.new(1, 1, 1)
+a4.BackgroundTransparency = 1;
+a4.Position = UDim2.new(0.308429122, 0, 7.32258129, 0)
+a4.Size = UDim2.new(0, 200, 0, 50)
+a4.ZIndex = 2;
+a4.Font = Enum.Font.SourceSans;
+a4.Text = "Accounts are free and can be registered in the discord server"
+a4.TextColor3 = Color3.new(1, 1, 1)
+a4.TextSize = 24;
+a5.Name = "Invite"
+a5.Parent = Q;
+a5.BackgroundColor3 = Color3.new(1, 1, 1)
+a5.BackgroundTransparency = 1;
+a5.Position = UDim2.new(0.308429122, 0, 8.41935539, 0)
+a5.Size = UDim2.new(0, 200, 0, 50)
+a5.ZIndex = 2;
+a5.Font = Enum.Font.SourceSans;
+a5.Text = "Discord Invite code: HdeWank"
+a5.TextColor3 = Color3.new(1, 1, 1)
+a5.TextSize = 24;
+a6.Name = "SubmitLogin"
+a6.Parent = Q;
+a6.BackgroundColor3 = Color3.new(1, 1, 1)
+a6.BackgroundTransparency = 1;
+a6.BorderSizePixel = 10;
+a6.Position = UDim2.new(0.396551728, 0, 5.66052198, 0)
+a6.Size = UDim2.new(0, 106, 0, 34)
+a6.Font = Enum.Font.SourceSansBold;
+a6.Text = "Login"
+a6.TextColor3 = Color3.new(1, 1, 1)
+a6.TextSize = 18;
+a7.Name = "Login Status"
+a7.Parent = Q;
+a7.BackgroundColor3 = Color3.new(1, 1, 1)
+a7.BackgroundTransparency = 1;
+a7.Position = UDim2.new(0.306513399, 0, 6.19354916, 0)
+a7.Size = UDim2.new(0, 200, 0, 50)
+a7.ZIndex = 2;
+a7.Font = Enum.Font.SourceSans;
+a7.Text = ""
+a7.TextColor3 = Color3.new(1, 1, 1)
+a7.TextSize = 24;
+a6.MouseButton1Down:connect(function()
+	if Z.Text == "thomas13215" and a1.Text == "seacan123" then
+		a7.Text = "Welcome thomas13215"
+		v.Text = "Welcome thomas13215"
+		wait(2)
+		H.Visible = true;
+		Q.Visible = false;
+		P.Text = "Loading Pluto."
+		wait(2)
+		P.Text = "Loading Pluto.."
+		wait(2)
+		P.Text = "Loading Pluto..."
+		wait(2)
+		P.Text = "Loading Functions."
+		wait(2)
+		P.Text = "Loading Functions.."
+		wait(2)
+		P.Text = "Loading Functions..."
+		wait(2)
+		P.Text = "Loading Remotes."
+		wait(2)
+		P.Text = "Loading Remotes.."
+		wait(2)
+		P.Text = "Loading Remotes..."
+		wait(2)
+		P.Text = "Pluto has loaded!"
+		game.StarterGui:SetCore("SendNotification", {
+			Title = "Pluto Global",
+			Text = "Pluto Loaded!"
+		})
+		wait(2)
+		w.Visible = true;
+		H.Visible = false
+	elseif Z.Text == "pornhub" and a1.Text == "gotdicksindaback" then
+		a7.Text = "Welcome pornhub"
+		v.Text = "Welcome pornhub"
+		wait(2)
+		H.Visible = true;
+		Q.Visible = false;
+		P.Text = "Loading Pluto."
+		wait(2)
+		P.Text = "Loading Pluto.."
+		wait(2)
+		P.Text = "Loading Pluto..."
+		wait(2)
+		P.Text = "Loading Functions."
+		wait(2)
+		P.Text = "Loading Functions.."
+		wait(2)
+		P.Text = "Loading Functions..."
+		wait(2)
+		P.Text = "Loading Remotes."
+		wait(2)
+		P.Text = "Loading Remotes.."
+		wait(2)
+		P.Text = "Loading Remotes..."
+		wait(2)
+		P.Text = "Pluto has loaded!"
+		game.StarterGui:SetCore("SendNotification", {
+			Title = "Pluto Global",
+			Text = "Pluto Loaded!"
+		})
+		wait(2)
+		w.Visible = true;
+		H.Visible = false
+	elseif Z.Text == "Starfurygamer" and a1.Text == "Buck3th3ad666" then
+		a7.Text = "Welcome Starfurygamer"
+		v.Text = "Welcome Starfurygamer"
+		wait(2)
+		H.Visible = true;
+		Q.Visible = false;
+		P.Text = "Loading Pluto."
+		wait(2)
+		P.Text = "Loading Pluto.."
+		wait(2)
+		P.Text = "Loading Pluto..."
+		wait(2)
+		P.Text = "Loading Functions."
+		wait(2)
+		P.Text = "Loading Functions.."
+		wait(2)
+		P.Text = "Loading Functions..."
+		wait(2)
+		P.Text = "Loading Remotes."
+		wait(2)
+		P.Text = "Loading Remotes.."
+		wait(2)
+		P.Text = "Loading Remotes..."
+		wait(2)
+		P.Text = "Pluto has loaded!"
+		game.StarterGui:SetCore("SendNotification", {
+			Title = "Pluto Global",
+			Text = "Pluto Loaded!"
+		})
+		wait(2)
+		w.Visible = true;
+		H.Visible = false
+	elseif Z.Text == "Nanachi" and a1.Text == "Toucannit" then
+		a7.Text = "Welcome Nanachi"
+		v.Text = "Welcome Nanachi"
+		wait(2)
+		H.Visible = true;
+		Q.Visible = false;
+		P.Text = "Loading Pluto."
+		wait(2)
+		P.Text = "Loading Pluto.."
+		wait(2)
+		P.Text = "Loading Pluto..."
+		wait(2)
+		P.Text = "Loading Functions."
+		wait(2)
+		P.Text = "Loading Functions.."
+		wait(2)
+		P.Text = "Loading Functions..."
+		wait(2)
+		P.Text = "Loading Remotes."
+		wait(2)
+		P.Text = "Loading Remotes.."
+		wait(2)
+		P.Text = "Loading Remotes..."
+		wait(2)
+		P.Text = "Pluto has loaded!"
+		game.StarterGui:SetCore("SendNotification", {
+			Title = "Pluto Global",
+			Text = "Pluto Loaded!"
+		})
+		wait(2)
+		w.Visible = true;
+		H.Visible = false
+	elseif Z.Text == "TheWitching" and a1.Text == "ThiccBubble" then
+		a7.Text = "Welcome TheWitching"
+		v.Text = "Welcome TheWitching"
+		wait(2)
+		H.Visible = true;
+		Q.Visible = false;
+		P.Text = "Loading Pluto."
+		wait(2)
+		P.Text = "Loading Pluto.."
+		wait(2)
+		P.Text = "Loading Pluto..."
+		wait(2)
+		P.Text = "Loading Functions."
+		wait(2)
+		P.Text = "Loading Functions.."
+		wait(2)
+		P.Text = "Loading Functions..."
+		wait(2)
+		P.Text = "Loading Remotes."
+		wait(2)
+		P.Text = "Loading Remotes.."
+		wait(2)
+		P.Text = "Loading Remotes..."
+		wait(2)
+		P.Text = "Pluto has loaded!"
+		game.StarterGui:SetCore("SendNotification", {
+			Title = "Pluto Global",
+			Text = "Pluto Loaded!"
+		})
+		wait(2)
+		w.Visible = true;
+		H.Visible = false
+	elseif Z.Text == "Octo" and a1.Text == "Octo" then
+		a7.Text = "Welcome Octo"
+		v.Text = "Welcome Octo"
+		wait(2)
+		H.Visible = true;
+		Q.Visible = false;
+		P.Text = "Loading Pluto."
+		wait(2)
+		P.Text = "Loading Pluto.."
+		wait(2)
+		P.Text = "Loading Pluto..."
+		wait(2)
+		P.Text = "Loading Functions."
+		wait(2)
+		P.Text = "Loading Functions.."
+		wait(2)
+		P.Text = "Loading Functions..."
+		wait(2)
+		P.Text = "Loading Remotes."
+		wait(2)
+		P.Text = "Loading Remotes.."
+		wait(2)
+		P.Text = "Loading Remotes..."
+		wait(2)
+		P.Text = "Pluto has loaded!"
+		game.StarterGui:SetCore("SendNotification", {
+			Title = "Pluto Global",
+			Text = "Pluto Loaded!"
+		})
+		wait(2)
+		w.Visible = true;
+		H.Visible = false
+	elseif Z.Text == "Breezy" and a1.Text == "9224292242" then
+		a7.Text = "Welcome Breezy"
+		v.Text = "Welcome Breezy"
+		wait(2)
+		H.Visible = true;
+		Q.Visible = false;
+		P.Text = "Loading Pluto."
+		wait(2)
+		P.Text = "Loading Pluto.."
+		wait(2)
+		P.Text = "Loading Pluto..."
+		wait(2)
+		P.Text = "Loading Functions."
+		wait(2)
+		P.Text = "Loading Functions.."
+		wait(2)
+		P.Text = "Loading Functions..."
+		wait(2)
+		P.Text = "Loading Remotes."
+		wait(2)
+		P.Text = "Loading Remotes.."
+		wait(2)
+		P.Text = "Loading Remotes..."
+		wait(2)
+		P.Text = "Pluto has loaded!"
+		game.StarterGui:SetCore("SendNotification", {
+			Title = "Pluto Global",
+			Text = "Pluto Loaded!"
+		})
+		wait(2)
+		w.Visible = true;
+		H.Visible = false
+	elseif Z.Text == "RANDOGUY69" and a1.Text == "julia712" then
+		a7.Text = "Welcome RANDOGUY69"
+		v.Text = "Welcome RANDOGUY69"
+		wait(2)
+		H.Visible = true;
+		Q.Visible = false;
+		P.Text = "Loading Pluto."
+		wait(2)
+		P.Text = "Loading Pluto.."
+		wait(2)
+		P.Text = "Loading Pluto..."
+		wait(2)
+		P.Text = "Loading Functions."
+		wait(2)
+		P.Text = "Loading Functions.."
+		wait(2)
+		P.Text = "Loading Functions..."
+		wait(2)
+		P.Text = "Loading Remotes."
+		wait(2)
+		P.Text = "Loading Remotes.."
+		wait(2)
+		P.Text = "Loading Remotes..."
+		wait(2)
+		P.Text = "Pluto has loaded!"
+		game.StarterGui:SetCore("SendNotification", {
+			Title = "Pluto Global",
+			Text = "Pluto Loaded!"
+		})
+		wait(2)
+		w.Visible = true;
+		H.Visible = false
+	elseif Z.Text == "iii_flex" and a1.Text == "poopshit" then
+		a7.Text = "Welcome iii_flex"
+		v.Text = "Welcome iii_flex"
+		wait(2)
+		H.Visible = true;
+		Q.Visible = false;
+		P.Text = "Loading Pluto."
+		wait(2)
+		P.Text = "Loading Pluto.."
+		wait(2)
+		P.Text = "Loading Pluto..."
+		wait(2)
+		P.Text = "Loading Functions."
+		wait(2)
+		P.Text = "Loading Functions.."
+		wait(2)
+		P.Text = "Loading Functions..."
+		wait(2)
+		P.Text = "Loading Remotes."
+		wait(2)
+		P.Text = "Loading Remotes.."
+		wait(2)
+		P.Text = "Loading Remotes..."
+		wait(2)
+		P.Text = "Pluto has loaded!"
+		game.StarterGui:SetCore("SendNotification", {
+			Title = "Pluto Global",
+			Text = "Pluto Loaded!"
+		})
+		wait(2)
+		w.Visible = true;
+		H.Visible = false
+	elseif Z.Text == "seanplaysss" and a1.Text == "ranger101" then
+		a7.Text = "Welcome seanplaysss"
+		v.Text = "Welcome seanplaysss"
+		wait(2)
+		H.Visible = true;
+		Q.Visible = false;
+		P.Text = "Loading Pluto."
+		wait(2)
+		P.Text = "Loading Pluto.."
+		wait(2)
+		P.Text = "Loading Pluto..."
+		wait(2)
+		P.Text = "Loading Functions."
+		wait(2)
+		P.Text = "Loading Functions.."
+		wait(2)
+		P.Text = "Loading Functions..."
+		wait(2)
+		P.Text = "Loading Remotes."
+		wait(2)
+		P.Text = "Loading Remotes.."
+		wait(2)
+		P.Text = "Loading Remotes..."
+		wait(2)
+		P.Text = "Pluto has loaded!"
+		game.StarterGui:SetCore("SendNotification", {
+			Title = "Pluto Global",
+			Text = "Pluto Loaded!"
+		})
+		wait(2)
+		w.Visible = true;
+		H.Visible = false
+	elseif Z.Text == "Fearfulkey1138" and a1.Text == "robloxiscool" then
+		a7.Text = "Welcome Fearfulkey1138"
+		v.Text = "Welcome Fearfulkey1138"
+		wait(2)
+		H.Visible = true;
+		Q.Visible = false;
+		P.Text = "Loading Pluto."
+		wait(2)
+		P.Text = "Loading Pluto.."
+		wait(2)
+		P.Text = "Loading Pluto..."
+		wait(2)
+		P.Text = "Loading Functions."
+		wait(2)
+		P.Text = "Loading Functions.."
+		wait(2)
+		P.Text = "Loading Functions..."
+		wait(2)
+		P.Text = "Loading Remotes."
+		wait(2)
+		P.Text = "Loading Remotes.."
+		wait(2)
+		P.Text = "Loading Remotes..."
+		wait(2)
+		P.Text = "Pluto has loaded!"
+		game.StarterGui:SetCore("SendNotification", {
+			Title = "Pluto Global",
+			Text = "Pluto Loaded!"
+		})
+		wait(2)
+		w.Visible = true;
+		H.Visible = false
+	elseif Z.Text == "iii_flex" and a1.Text == "poopshit" then
+		a7.Text = "Welcome iii_flex"
+		v.Text = "Welcome iii_flex"
+		wait(2)
+		H.Visible = true;
+		Q.Visible = false;
+		P.Text = "Loading Pluto."
+		wait(2)
+		P.Text = "Loading Pluto.."
+		wait(2)
+		P.Text = "Loading Pluto..."
+		wait(2)
+		P.Text = "Loading Functions."
+		wait(2)
+		P.Text = "Loading Functions.."
+		wait(2)
+		P.Text = "Loading Functions..."
+		wait(2)
+		P.Text = "Loading Remotes."
+		wait(2)
+		P.Text = "Loading Remotes.."
+		wait(2)
+		P.Text = "Loading Remotes..."
+		wait(2)
+		P.Text = "Pluto has loaded!"
+		game.StarterGui:SetCore("SendNotification", {
+			Title = "Pluto Global",
+			Text = "Pluto Loaded!"
+		})
+		wait(2)
+		w.Visible = true;
+		H.Visible = false
+	elseif Z.Text == "aalv2520" and a1.Text == "julia712" then
+		a7.Text = "Welcome aalv2520"
+		v.Text = "Welcome aalv2520"
+		wait(2)
+		H.Visible = true;
+		Q.Visible = false;
+		P.Text = "Loading Pluto."
+		wait(2)
+		P.Text = "Loading Pluto.."
+		wait(2)
+		P.Text = "Loading Pluto..."
+		wait(2)
+		P.Text = "Loading Functions."
+		wait(2)
+		P.Text = "Loading Functions.."
+		wait(2)
+		P.Text = "Loading Functions..."
+		wait(2)
+		P.Text = "Loading Remotes."
+		wait(2)
+		P.Text = "Loading Remotes.."
+		wait(2)
+		P.Text = "Loading Remotes..."
+		wait(2)
+		P.Text = "Pluto has loaded!"
+		game.StarterGui:SetCore("SendNotification", {
+			Title = "Pluto Global",
+			Text = "Pluto Loaded!"
+		})
+		wait(2)
+		w.Visible = true;
+		H.Visible = false
+	else
+		Z.Text = ""
+		a1.Text = ""
+		a7.Text = "Login Failed!"
+		wait(2)
+		a7.Text = "Please try again or register an account!"
+		wait(2)
+		a7.Text = ""
+	end
+end)
+R.MouseButton1Down:connect(function()
+	Q.Visible = false;
+	game.StarterGui:SetCore("SendNotification", {
+		Title = "Pluto Global",
+		Text = "Login Closed!"
+	})
+end)
+w.MouseButton1Down:connect(function()
+	b.Visible = true;
+	w.Visible = false;
+	game.StarterGui:SetCore("SendNotification", {
+		Title = "Pluto Global",
+		Text = "Pluto Global opened!"
+	})
+end)
+c.MouseButton1Down:connect(function()
+	b.Visible = false;
+	w.Visible = true;
+	game.StarterGui:SetCore("SendNotification", {
+		Title = "Pluto Global",
+		Text = "Pluto Global closed!"
+	})
+end)
+h.MouseButton1Down:connect(function()
+	game.StarterGui:SetCore("SendNotification", {
+		Title = "Pluto Global",
+		Text = "Cleaning up..."
+	})
+	wait(2)
+	i.Text = ""
+	game.StarterGui:SetCore("SendNotification", {
+		Title = "Pluto Global",
+		Text = "Code box cleared!"
+	})
+end)
+k.MouseButton1Down:connect(function()
+	x.Visible = true;
+	game.StarterGui:SetCore("SendNotification", {
+		Title = "Pluto Global",
+		Text = "Cerdits opened!"
+	})
+end)
+y.MouseButton1Down:connect(function()
+	x.Visible = false;
+	game.StarterGui:SetCore("SendNotification", {
+		Title = "Pluto Global",
+		Text = "Cerdits closed!"
+	})
+end)
+g.MouseButton1Down:connect(function()
+	game.ReplicatedStorage.RemoteEvent:FireServer(i.Text)
+	game.StarterGui:SetCore("SendNotification", {
+		Title = "Pluto Global",
+		Text = "Module successfully executed!"
+	})
+end)
+m.MouseButton1Down:connect(function(a8)
+	i.Text = 'require(3041175937):r6("Username")'
+	game.StarterGui:SetCore("SendNotification", {
+		Title = "Pluto Global",
+		Text = "Change Username to your name, then press execute!"
+	})
+end)
